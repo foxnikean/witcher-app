@@ -1,0 +1,31 @@
+.card__container {
+    display: flex;
+}
+
+.character__img {
+    height: 300px;
+    width: 250px;
+    border: 5px inset #201000;
+}
+
+.card__back {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 5px inset #201000;
+    background-color: #5f3103;
+    color: white;
+    width: 250px;
+    height: 300px;
+}
+
+.card__back p {
+    margin: 1rem;
+}
+
+.character__name {
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
